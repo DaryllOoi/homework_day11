@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    background-color: rgb(213, 213, 213);
+    font-size: 48px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  .image-size img{
+    border: 1px solid rgb(30, 57, 213);
+    width: 70%;
+  border-radius: 4px;
+  padding: 5px;
+  height: 180px;
+  object-fit: cover;
+  visibility:visible;
+  }
+
+  .visibility{
+    visibility:collapse;
+  }
+  
+  footer{
+    text-align: center;
+  }
+
+  #new-element-text {
+    width: 50%;
+  }
+
+  .text-board{
+    padding-left: 35%;
+    padding-right: 35%;
+  }
