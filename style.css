@@ -1,3 +1,5 @@
+
+
 h1{
     text-align: center;
     background-color: rgb(213, 213, 213);
@@ -27,11 +29,10 @@ table {
   padding: 5px;
   height: 180px;
   object-fit: cover;
-  visibility:visible;
   }
 
   .visibility{
-    visibility:collapse;
+    visibility:hidden;
   }
   
   footer{
@@ -46,3 +47,10 @@ table {
     padding-left: 35%;
     padding-right: 35%;
   }
+
+.cssChange{
+    color: red;
+}
+.price-colour{
+    color: blue;
+}
